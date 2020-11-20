@@ -1,0 +1,69 @@
+body {
+  margin-top: 35px;
+}
+
+.prod--wrapper {
+  display: flex;
+  width: 95%;
+  margin: 32px 0;
+  border: 1px solid #b6b6b6;
+  border-radius: 6px;
+  padding: 22px 10px;
+  font-family: "Calibri", "Arial";
+}
+
+.prod--wrapper .prod--row {
+  display: flex;
+  flex-direction: row;
+}
+
+.prod--wrapper .prod--col {
+  display: flex;
+  flex-direction: column;
+}
+
+.prod--wrapper .prod--img {
+  width: 20%;
+  margin: 0 15px;
+}
+
+.prod--wrapper .prod--img .prod--img-graphic {
+  max-height: 100%;
+  height: 100%;
+  vertical-align: top;
+  max-width: 100%;
+}
+
+.prod--wrapper .prod--details {
+  width: 90%;
+  margin-left: 17px;
+}
+
+.prod--wrapper .prod--details .prod--name {
+  margin-bottom: 3px;
+  width: 85%;
+  display: block;
+  max-width: 100%;
+}
+
+.prod--wrapper .prod--details .prod--name .prod--name-para {
+  margin: 0 auto;
+}
+
+.prod--wrapper .prod--details .prod--name .prod--name-text {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 23px;
+  color: #002877;
+  height: 40px;
+}
+
+.prod--wrapper .prod--details .prod--description {
+  margin-bottom: 13px;
+}
+
+.prod--wrapper .prod--details .prod--description .prod--description-text {
+  font-size: 13px;
+  line-height: 18px;
+  color: #666666;
+}
